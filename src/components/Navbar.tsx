@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <Car className="text-[#FF7F50]" size={26} />
-            <span className="font-bold text-white text-lg tracking-wide">Abdul Kadar Shaikh</span>
+            <span className="font-bold text-white text-lg tracking-wide">AM Tours and Travels</span>
           </div>
 
           {/* Desktop */}

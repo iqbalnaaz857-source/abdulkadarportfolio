@@ -10,10 +10,10 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage:
-            'url(https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=1920)',
+          backgroundImage: 'url(/beach.jpg)',
         }}
       />
+      
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0077B6]/80 via-[#005f92]/70 to-black/60" />
 
@@ -25,7 +25,7 @@ export default function Hero() {
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4 drop-shadow-lg">
           Explore Goa with<br />
-          <span className="text-[#FF7F50]">Abdul Kadar Shaikh</span>
+          <span className="text-[#FF7F50]">AM Tours and Travels</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-white/85 font-medium mb-2 tracking-wide">
